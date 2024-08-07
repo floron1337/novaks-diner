@@ -45,11 +45,11 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
 
   return (
     <html lang="en" className={GeistSans.variable}>
-      <body className='bg-white text-black'>
+      <body>
         <Analytics/>
         <CartProvider cartPromise={cart}>
           <HomeNavbar/>
-          <main className='bg-white text-black'>
+          <main>
             {children}
           </main>
           <Footer/>

@@ -9,7 +9,7 @@ export default async function Footer() {
     <footer className="w-full flex flex-col">
       <div className='flex flex-row ml-32 mr-32 justify-between max-md:mx-0 max-md:flex-col max-md:justify-center max-md:items-center'>
         <div className='flex flex-row items-center gap-4'>
-          <Image src='/img/logo.jpg' alt="" width={65} height={65}/>
+          <Image src='/img/logo.JPG' alt="" width={65} height={65}/>
           <h1 className='text-black font-bold text-2xl'>Novak's Seaside Diner</h1>
         </div>
 

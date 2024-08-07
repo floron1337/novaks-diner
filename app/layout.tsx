@@ -2,13 +2,11 @@ import { CartProvider } from 'components/cart/cart-context';
 import Footer from 'components/layout/footer';
 import Disclaimer from 'components/layout/navbar/Disclaimer';
 import HomeNavbar from 'components/layout/navbar/HomeNavbar';
-import { WelcomeToast } from 'components/welcome-toast';
 import { GeistSans } from 'geist/font/sans';
 import { getCart } from 'lib/shopify';
 import { ensureStartsWith } from 'lib/utils';
 import { cookies } from 'next/headers';
 import { ReactNode } from 'react';
-import { Toaster } from 'sonner';
 import './buttons.css';
 import './globals.css';
 
@@ -51,8 +49,6 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
           <HomeNavbar/>
           <main>
             {children}
-            <Toaster closeButton />
-            <WelcomeToast />
           </main>
           <Footer/>
           <Disclaimer/>

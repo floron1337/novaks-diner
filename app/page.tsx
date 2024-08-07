@@ -18,7 +18,7 @@ function HeroSection() {
       <div className='flex flex-col w-1/2 items-center justify-center max-md:w-full'>
         <div className='mt-auto max-lg:m-4'>
           <div className='flex flex-row items-center gap-4 mt-auto'>
-            <img src='/img/logo.jpg' alt="" width={100}/>
+            <Image src='/img/logo.JPG' alt="" width={100} height={100}/>
             <h1 className='text-6xl font-bold max-2xl:text-4xl'>Experience seaside <br/>dining at its finest</h1>
           </div>
           <h3 className='mt-4 text-base'>Indulge in fresh seafood accompanied by the music of the waves.</h3>

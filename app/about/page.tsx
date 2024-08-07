@@ -6,7 +6,7 @@ function TopGallery(){
         <div className='flex flex-col my-16'>
             <div className='flex flex-row gap-4 ml-32 max-md:ml-4'>
                 <div>
-                    <Image src='/img/logo.jpg' alt='' width={64} height={64}/>
+                    <Image src='/img/logo.JPG' alt='' width={64} height={64}/>
                 </div>
                 <div className='flex flex-col'>
                     <h1 className='text-3xl font-semibold'>About Us</h1>

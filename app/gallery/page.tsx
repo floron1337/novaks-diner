@@ -2,7 +2,7 @@ import Image from "next/image"
 
 function Gallery() {
     return (
-        <div className='my-16 flex flex-col mx-32 gap-4 max-md:mx-4'>
+        <div className='my-16 flex flex-col mx-32 gap-4 max-md:mx-4 bg-white text-black'>
             <div className='flex flex-row gap-4 max-md:flex-col'>
                 <div className='w-1/2 max-md:w-full'>
                     <Image src='/img/gallery1.jpg' alt="" width={1920} height={1280}/>

@@ -168,7 +168,7 @@ function ContactSection(){
 
 function About() {
     return (
-        <div className='w-full bg-white'>
+        <div className='w-full bg-white text-black'>
             <TopGallery/>
             <WelcomeSection/>    
             <StorySection/>

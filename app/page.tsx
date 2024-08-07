@@ -19,9 +19,9 @@ function HeroSection() {
         <div className='mt-auto max-lg:m-4'>
           <div className='flex flex-row items-center gap-4 mt-auto'>
             <Image src='/img/logo.JPG' alt="" width={100} height={100}/>
-            <h1 className='text-6xl font-bold max-2xl:text-4xl'>Experience seaside <br/>dining at its finest</h1>
+            <h1 className='text-6xl font-bold max-2xl:text-4xl text-black'>Experience seaside <br/>dining at its finest</h1>
           </div>
-          <h3 className='mt-4 text-base'>Indulge in fresh seafood accompanied by the music of the waves.</h3>
+          <h3 className='mt-4 text-base text-black'>Indulge in fresh seafood accompanied by the music of the waves.</h3>
           <div className='mt-4 flex flex-row gap-4'>
             <Link href='/search' className='primary-button px-12'>
               Menu
@@ -54,7 +54,7 @@ function HeroSection() {
 function SpecialtiesSection(){
   return(
     <>
-      <div className='w-full flex flex-col items-center mt-20 max-md:mt-4 max-md:w-full'>
+      <div className='w-full bg-white flex flex-col items-center mt-20 max-md:mt-4 max-md:w-full'>
           <div className='flex flex-col items-center justify-center ml-4'>
             <h1 className='text-3xl font-bold w-full'>Today's Specialties</h1>
             <h3 className='w-full'>Prepared with great care and cooked to perfection.</h3>
@@ -71,7 +71,7 @@ function SpecialtiesSection(){
 
 function ReadyToPick(){
   return(
-    <div className='flex flex-col items-center mt-16'>
+    <div className='flex flex-col items-center mt-16 bg-white'>
       <h1 className='text-3xl font-bold'>Ready to pick?</h1>
       <h3>Just a few more clicks!</h3>
       <div className='flex flex-row gap-4 mt-4 items-center'>
@@ -88,7 +88,7 @@ function ReadyToPick(){
 
 function FreshSection(){
   return(
-    <div className='w-full flex flex-row mt-16 items-center justify-center gap-24 max-md:flex-col'>
+    <div className='w-full flex flex-row mt-16 items-center justify-center gap-24 max-md:flex-col bg-white'>
       <div className='w-1/2 flex flex-col ml-48 max-md:w-5/6 max-md:ml-0 max-lg:ml-16'>
         <h3 className='text-sm'>Fresh</h3>
         <h1 className='text-3xl font-bold'>Indulge in our exquisite seafood delights</h1>
@@ -112,7 +112,7 @@ function FreshSection(){
 
 function GallerySection(){
   return(
-    <div className='w-full mt-24 flex flex-col items-center'>
+    <div className='w-full mt-24 flex flex-col items-center bg-white'>
       <div className="flex flex-row gap-4 ml-4 mr-4 max-md:ml-0 max-md:mr-0">
           <div className="w-1/3 hover:scale-105 ease">
             <Image src="/img/outside1.jpg" alt="" width="2016" height="3024"/>
@@ -139,7 +139,7 @@ function GallerySection(){
 function ContactSection(){
   return(
     <>
-      <div className='mt-24'>
+      <div className='mt-24 bg-white'>
           <div className='flex flex-row gap-4 ml-32 items-center max-md:ml-0 max-lg:ml-8'>
             <div className='bg-black w-16 h-16'></div>
             <div className='flex flex-col'>
@@ -148,7 +148,7 @@ function ContactSection(){
             </div>
           </div>
         </div>
-        <div className='mt-4 w-full flex flex-row gap-24 mb-24 max-md:flex-col items-center'>
+        <div className='mt-4 w-full flex flex-row gap-24 mb-24 max-md:flex-col items-center bg-white'>
           <div className='w-1/2 ml-32 max-md:ml-0 max-md:w-5/6 max-lg:ml-8'>
             <form className='flex flex-col'>
               <label>Name</label>
@@ -180,13 +180,13 @@ function ContactSection(){
 
 export default function HomePage() {
   return (
-    <>
+    <div className='bg-white text-black'>
       <HeroSection/>
       <SpecialtiesSection/>
       <ReadyToPick/>
       <FreshSection/>
       <GallerySection/>
       <ContactSection/>
-    </>
+    </div>
   );
 }

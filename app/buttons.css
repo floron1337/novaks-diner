@@ -1,0 +1,54 @@
+.primary-button{
+    color: white;
+    background-color: black;
+    padding: 8px 24px;
+    font-weight: 500;
+    transition:0.4s ease;
+}
+
+.primary-button:hover{
+    scale:1.2;
+}
+
+.secondary-button{
+    color: white;
+    background-color: #014471;
+    padding: 8px 24px;
+    font-weight: 500;
+    transition: 0.4s ease;
+}
+
+.secondary-button:hover{
+    scale:1.2;
+}
+
+.outline-button{
+    color: black;
+    padding: 8px 24px;
+    font-weight: 500;
+    border: 2px solid;
+    transition:0.4s ease;
+}
+
+.outline-button:hover{
+    color:white; 
+    background-color:black;
+    scale: 1.2;
+}
+
+.ease{
+    transition:0.4s ease;
+}
+
+.separator{
+    height:0.1px;
+    opacity: 0.5;
+}
+
+.drop-shadow{
+    box-shadow: -4px 4px 8px #01447128;
+}
+
+.half-vh{
+    height: 50vh;
+}

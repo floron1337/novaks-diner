@@ -6,7 +6,7 @@ export default async function Footer() {
   const copyrightDate = 2023 + (currentYear > 2023 ? `-${currentYear}` : '');
 
   return (
-    <footer className="w-full flex flex-col">
+    <footer className="w-full flex flex-col bg-white text-black">
       <div className='flex flex-row ml-32 mr-32 justify-between max-md:mx-0 max-md:flex-col max-md:justify-center max-md:items-center'>
         <div className='flex flex-row items-center gap-4'>
           <Image src='/img/logo.JPG' alt="" width={65} height={65}/>

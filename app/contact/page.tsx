@@ -2,7 +2,7 @@ import { Mail, Map, Phone } from "lucide-react"
 
 function Contact() {
     return (
-        <div className='bg-white text-black'>
+        <div className='bg-white text-black w-full'>
             <div className='mt-16'>
                 <div className='flex flex-row gap-4 ml-32 items-center max-md:ml-0 max-lg:ml-8'>
                     <div className='bg-black w-16 h-16'></div>

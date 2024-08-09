@@ -140,7 +140,7 @@ function ContactSection(){
   return(
     <>
       <div className='mt-24 bg-white'>
-          <div className='flex flex-row gap-4 ml-32 items-center max-md:ml-0 max-lg:ml-8'>
+          <div className='flex flex-row gap-4 ml-32 items-center max-md:ml-8 max-lg:ml-8'>
             <div className='bg-black w-16 h-16'></div>
             <div className='flex flex-col'>
               <h1 className='text-3xl font-semibold'>Contact us</h1>
@@ -148,8 +148,8 @@ function ContactSection(){
             </div>
           </div>
         </div>
-        <div className='mt-4 w-full flex flex-row gap-24 mb-24 max-md:flex-col items-center bg-white'>
-          <div className='w-1/2 ml-32 max-md:ml-0 max-md:w-5/6 max-lg:ml-8'>
+        <div className='mt-4 w-full flex flex-row gap-24 mb-24 max-md:flex-col items-center max-md:items-start bg-white'>
+          <div className='w-1/2 ml-32 max-md:w-5/6 max-lg:ml-8'>
             <form className='flex flex-col'>
               <label>Name</label>
               <input type="text" name="name" className='border-black border h-8 mb-4'/>
@@ -162,7 +162,7 @@ function ContactSection(){
               </div>
             </form>
           </div>
-          <div className='w-1/2 mr-32 max-md:mr-0 max-md:ml-0 max-md:w-5/6 items-center max-lg:mr-8'>
+          <div className='w-1/2 mr-32 max-md:w-5/6 items-center max-lg:mx-8'>
             <h2 className='flex flex-row items-center gap-1 font-semibold'>Email <Mail className='size-5'/> </h2>
             <h3>florinvenis.dev.business@gmail.com</h3>
             <h2 className='flex flex-row items-center gap-1 font-semibold mt-2'>Phone <Phone className='size-5'/> </h2>
